@@ -157,6 +157,10 @@ body {
     color: var(--main-btn-color);
 }
 
+footer {
+    background-color: #303030;
+}
+
 
 /*-----------PORTFOLIO----------------*/
 
@@ -192,3 +196,61 @@ body {
     color: var(--main-text-color);
 }
 
+
+.team-function {
+    color: var(--main-text-color);
+}
+
+.achivements-text {
+    color: var(--main-text-color);
+}
+
+.team-function {
+    color: var(--main-text-color);
+}
+
+ {
+    color: var(--main-text-color);
+}
+
+
+
+
+.footer-logo {
+    color: var(--background-color)
+}
+
+.footer-address {
+    color: #ffffff;
+}
+
+/*белый прозрачный*/
+.footer-mail {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.potrfolio-button {
+    background-color: #F5F4FA;
+    color: var(--second-text-color);
+}
+
+.potrfolio-button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.projects-title {
+    color: var(--second-text-color);
+}
+
+.footer-logo {
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #2F303A;
+}
