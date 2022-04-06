@@ -1,0 +1,252 @@
+/* основные цвета сайта */
+:root {
+    --background-color: #FFFFFF;
+    --main-text-color: #757575;
+    --second-text-color: #212121;
+    --main-btn-color: #2196F3;
+
+}
+
+body {
+    font-family: 'robot', Tahoma, sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+
+/*----------HEADER------------*/
+
+.header-link {
+    color: var(--second-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;    
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--main-btn-color);
+}
+
+.header-contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus {
+    color: var(--main-btn-color);
+}
+
+/*----------HERO------------*/
+
+.hero {
+    background-color: #303030;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    background-color: var(--main-btn-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #FFFFFF;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: blue;
+}
+
+/*----------ACHIV------------*/
+
+.achivements-item-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-text-color);
+}
+
+.achivements-item-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+/*----------DEVELOPMENT------------*/
+
+.development-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
+
+/*----------TEAM------------*/
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
+
+.team-item-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
+
+.team-item-function {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+/*----------FOOTER------------*/
+
+.footer-address-link {
+    font-family: 'Roboto', Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-contact-link {
+    font-family: 'Roboto', Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+    color: var(--main-btn-color);
+}
+
+
+/*-----------PORTFOLIO----------------*/
+
+.potrfolio-button {
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.26;
+    text-align: center;
+    letter-spacing: 0.03em;    
+    color: var(--second-text-color);
+    cursor: pointer;
+}
+
+.potrfolio-button:hover,
+.potrfolio-button:focus {
+    background-color: #2196F3;
+}
+
+/*-----------PORTFOLIO----------------*/
+
+.projects-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;    
+    color: var(--second-text-color);
+}
+
+.projects-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+
+.team-function {
+    color: var(--main-text-color);
+}
+
+.achivements-text {
+    color: var(--main-text-color);
+}
+
+.team-function {
+    color: var(--main-text-color);
+}
+
+ {
+    color: var(--main-text-color);
+}
+
+
+
+
+.footer-logo {
+    color: var(--background-color)
+}
+
+.footer-address {
+    color: #ffffff;
+}
+
+/*белый прозрачный*/
+.footer-mail {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.potrfolio-button {
+    background-color: #F5F4FA;
+    color: var(--second-text-color);
+}
+
+.potrfolio-button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.projects-title {
+    color: var(--second-text-color);
+}
+
+.footer-logo {
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #2F303A;
+}
