@@ -39,9 +39,16 @@ body {
     letter-spacing: 0.02em;    
 }
 
+.active,
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.header-link:active {
     color: var(--main-btn-color);
+}
+
+.header-link,
+.logo {
+    text-decoration: none;
 }
 
 .header-contact-link {
@@ -57,6 +64,7 @@ body {
 .header-contact-link:focus {
     color: var(--main-btn-color);
 }
+
 
 /*----------HERO------------*/
 
@@ -85,7 +93,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: blue;
+    background-color: var(--main-btn-color);
 }
 
 /*----------ACHIV------------*/
@@ -210,63 +218,4 @@ footer {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-}
-
-
-.team-function {
-    color: var(--main-text-color);
-}
-
-.achivements-text {
-    color: var(--main-text-color);
-}
-
-.team-function {
-    color: var(--main-text-color);
-}
-
- {
-    color: var(--main-text-color);
-}
-
-
-
-
-.footer-logo {
-    color: var(--background-color)
-}
-
-.footer-address {
-    color: #ffffff;
-}
-
-/*белый прозрачный*/
-.footer-mail {
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-tel {
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.potrfolio-button {
-    background-color: #F5F4FA;
-    color: var(--second-text-color);
-}
-
-.potrfolio-button:hover {
-    background-color: #2196F3;
-    color: #FFFFFF;
-}
-
-.projects-title {
-    color: var(--second-text-color);
-}
-
-.footer-logo {
-    color: #FFFFFF;
-}
-
-footer {
-    background-color: #2F303A;
 }
